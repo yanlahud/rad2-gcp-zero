@@ -1,0 +1,9 @@
+fastapi
+uvicorn[standard]
+python-multipart
+pydantic
+nibabel
+numpy
+fpdf2
+google-cloud-storage
+google-cloud-firestore

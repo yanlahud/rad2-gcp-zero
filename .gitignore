@@ -1,0 +1,44 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+.venv/
+venv/
+ENV/
+env/
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Local files
+.DS_Store
+local_settings.py
+*.sqlite3
+*.log
+.vscode/
+*.env
+
+# Chaves de API e segredos
+# IMPORTANTE: Garanta que sua chave JSON NÃO seja commitada!
+*.json
+secrets/
