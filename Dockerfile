@@ -20,3 +20,5 @@ COPY ./app $APP_HOME/app
 # Comando para executar a aplicação
 # Cloud Run injeta a variável de ambiente PORT, que Uvicorn usará.
 CMD exec uvicorn app.main:app --host 0.0.0.0 --port ${PORT}
+
+# test
